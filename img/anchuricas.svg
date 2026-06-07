@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a7a9b;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7ab8d4;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a7a5a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a5a4a;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="mount1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d4a2d;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a2a1a;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Cielo -->
+  <rect width="1200" height="600" fill="url(#sky)"/>
+  <!-- Montañas fondo -->
+  <polygon points="0,320 150,180 300,240 450,150 600,200 750,160 900,220 1050,170 1200,240 1200,600 0,600" fill="#3d5a3d" opacity="0.7"/>
+  <!-- Montañas primer plano -->
+  <polygon points="0,380 100,280 250,320 400,260 550,300 700,250 850,290 1000,260 1150,300 1200,320 1200,600 0,600" fill="url(#mount1)"/>
+  <!-- Embalse/lago -->
+  <ellipse cx="600" cy="480" rx="500" ry="100" fill="url(#water)" opacity="0.9"/>
+  <ellipse cx="600" cy="470" rx="480" ry="30" fill="#4aaa8a" opacity="0.5"/>
+  <!-- Pinos -->
+  <g fill="#1a3a1a">
+    <polygon points="80,380 95,330 110,380"/><rect x="91" y="378" width="8" height="15" fill="#5a3a1a"/>
+    <polygon points="120,370 138,312 156,370"/><rect x="133" y="368" width="10" height="18" fill="#5a3a1a"/>
+    <polygon points="1050,370 1065,320 1080,370"/><rect x="1061" y="368" width="8" height="16" fill="#5a3a1a"/>
+    <polygon points="1090,360 1108,305 1126,360"/><rect x="1104" y="358" width="10" height="18" fill="#5a3a1a"/>
+  </g>
+  <!-- Reflejo agua -->
+  <ellipse cx="600" cy="475" rx="200" ry="15" fill="#7ad4b8" opacity="0.3"/>
+  <!-- Texto -->
+  <text x="600" y="545" font-family="Georgia,serif" font-size="22" fill="white" text-anchor="middle" opacity="0.9">Embalse de Anchuricas · Santiago-Pontones · Sierra de Segura</text>
+  <text x="600" y="570" font-family="Georgia,serif" font-size="14" fill="rgba(255,255,255,0.65)" text-anchor="middle">Parque Natural Sierras de Cazorla, Segura y Las Villas · Jaén</text>
+</svg>

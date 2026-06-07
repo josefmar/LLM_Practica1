@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="skyP" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a5a80"/><stop offset="100%" style="stop-color:#7aaac0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#skyP)"/>
+  <!-- Cumbre principal (Puntal) -->
+  <polygon points="400,60 260,300 540,300" fill="#5a5a6a"/>
+  <polygon points="400,60 310,240 490,240" fill="#7a7a8a"/>
+  <!-- Nieve cima -->
+  <polygon points="400,60 365,130 435,130" fill="white" opacity="0.9"/>
+  <!-- Laderas con pinos -->
+  <polygon points="0,350 150,240 300,280 500,260 650,280 800,260 800,500 0,500" fill="#2d4a2d"/>
+  <polygon points="0,420 200,360 400,380 600,360 800,375 800,500 0,500" fill="#1a3a1a"/>
+  <!-- Pinos detalle -->
+  <g fill="#0d2a0d">
+    <polygon points="60,420 72,375 84,420"/><polygon points="90,415 103,368 116,415"/>
+    <polygon points="680,415 692,370 704,415"/><polygon points="715,420 728,372 741,420"/>
+    <polygon points="160,400 174,350 188,400"/><polygon points="600,405 614,358 628,405"/>
+  </g>
+  <!-- Rocas -->
+  <g fill="#6a6a7a" opacity="0.8">
+    <ellipse cx="350" cy="290" rx="25" ry="12"/><ellipse cx="450" cy="285" rx="20" ry="10"/>
+    <ellipse cx="250" cy="295" rx="18" ry="9"/>
+  </g>
+  <text x="400" y="462" font-family="Georgia,serif" font-size="19" fill="white" text-anchor="middle" opacity="0.9">Sierra de Segura · Cumbres · Parque Natural</text>
+  <text x="400" y="486" font-family="Georgia,serif" font-size="13" fill="rgba(255,255,255,0.65)" text-anchor="middle">Cazorla, Segura y Las Villas · Santiago-Pontones · Jaén</text>
+</svg>

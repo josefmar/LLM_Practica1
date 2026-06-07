@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <radialGradient id="manantial" cx="50%" cy="60%" r="40%">
+      <stop offset="0%" style="stop-color:#00c0a0;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#006060;stop-opacity:0.7"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="#4a6a4a"/>
+  <!-- Roca caliza -->
+  <ellipse cx="400" cy="200" rx="280" ry="180" fill="#9a8a6a"/>
+  <ellipse cx="400" cy="210" rx="260" ry="165" fill="#b8a880"/>
+  <!-- Cueva/nacimiento -->
+  <ellipse cx="400" cy="280" rx="140" ry="90" fill="#1a3a3a"/>
+  <ellipse cx="400" cy="285" rx="120" ry="75" fill="url(#manantial)"/>
+  <!-- Agua saliendo -->
+  <path d="M280,300 Q350,360 400,380 Q450,360 520,300" stroke="#00e0c0" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M300,320 Q370,390 400,410 Q430,390 500,320" stroke="#00c0a0" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- Vegetación -->
+  <g fill="#2d5a2d">
+    <circle cx="150" cy="350" r="40"/><circle cx="170" cy="330" r="30"/>
+    <circle cx="620" cy="360" r="45"/><circle cx="650" cy="340" r="35"/>
+    <circle cx="100" cy="400" r="35"/><circle cx="700" cy="400" r="40"/>
+  </g>
+  <!-- Poza de agua -->
+  <ellipse cx="400" cy="400" rx="180" ry="60" fill="#008870" opacity="0.75"/>
+  <ellipse cx="400" cy="395" rx="140" ry="25" fill="#00c0a0" opacity="0.5"/>
+  <text x="400" y="465" font-family="Georgia,serif" font-size="19" fill="white" text-anchor="middle" opacity="0.9">Nacimiento del Río Segura · 1.413 m altitud · Fuente Segura</text>
+  <text x="400" y="488" font-family="Georgia,serif" font-size="13" fill="rgba(255,255,255,0.65)" text-anchor="middle">Santiago-Pontones · Sierra de Segura · Jaén</text>
+</svg>

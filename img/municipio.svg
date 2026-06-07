@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500">
+  <defs>
+    <linearGradient id="sky2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6a9ab8"/>
+      <stop offset="100%" style="stop-color:#a0c8d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#sky2)"/>
+  <!-- Montañas -->
+  <polygon points="0,300 200,180 400,230 600,160 800,210 1000,170 1200,220 1200,500 0,500" fill="#3d6b3d" opacity="0.8"/>
+  <polygon points="0,360 150,280 350,310 500,270 700,300 900,265 1100,295 1200,310 1200,500 0,500" fill="#2d4a2d"/>
+  <!-- Pueblo: casas blancas -->
+  <g fill="white" opacity="0.95">
+    <rect x="480" y="330" width="40" height="35"/><polygon points="475,330 525,330 500,310" fill="#c8922a"/>
+    <rect x="530" y="335" width="35" height="30"/><polygon points="526,335 568,335 547,318" fill="#c8922a"/>
+    <rect x="575" y="328" width="45" height="37"/><polygon points="570,328 624,328 597,308" fill="#a07030"/>
+    <rect x="630" y="333" width="38" height="32"/><polygon points="626,333 671,333 649,315" fill="#c8922a"/>
+    <rect x="678" y="338" width="32" height="27"/><polygon points="674,338 712,338 693,322" fill="#c8922a"/>
+    <!-- Iglesia -->
+    <rect x="420" y="315" width="48" height="50"/><polygon points="415,315 472,315 444,292" fill="#8b5e3c"/>
+    <rect x="438" y="280" width="12" height="35" fill="white"/>
+    <rect x="433" y="292" width="22" height="8" fill="white"/>
+  </g>
+  <!-- Rio -->
+  <path d="M0,430 Q300,410 600,425 Q900,440 1200,420 L1200,460 Q900,475 600,465 Q300,455 0,465 Z" fill="#4a9ab8" opacity="0.7"/>
+  <!-- Pinos ladera -->
+  <g fill="#1a3a1a" opacity="0.85">
+    <polygon points="200,340 212,300 224,340"/><polygon points="240,335 254,292 268,335"/>
+    <polygon points="850,335 863,295 876,335"/><polygon points="890,340 904,298 918,340"/>
+  </g>
+  <text x="600" y="488" font-family="Georgia,serif" font-size="20" fill="white" text-anchor="middle" opacity="0.9">Pontones · Capital municipal · Santiago-Pontones (Jaén)</text>
+</svg>

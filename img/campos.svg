@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="skyC" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6080a8"/><stop offset="100%" style="stop-color:#a0b8c8"/>
+    </linearGradient>
+    <linearGradient id="campo" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8aaa5a"/><stop offset="100%" style="stop-color:#6a8a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#skyC)"/>
+  <!-- Horizonte montañas lejanas -->
+  <polygon points="0,220 150,170 300,190 450,155 600,175 800,160 800,500 0,500" fill="#4a6a4a" opacity="0.6"/>
+  <!-- Altiplanicie - campos extensos -->
+  <rect x="0" y="280" width="800" height="220" fill="url(#campo)"/>
+  <!-- Textura pastizal -->
+  <g stroke="#5a8a3a" stroke-width="1" opacity="0.4">
+    <line x1="0" y1="300" x2="800" y2="305"/><line x1="0" y1="330" x2="800" y2="325"/>
+    <line x1="0" y1="360" x2="800" y2="358"/><line x1="0" y1="400" x2="800" y2="395"/>
+    <line x1="0" y1="440" x2="800" y2="442"/>
+  </g>
+  <!-- Piornos y enebros dispersos -->
+  <g fill="#3a6a2a" opacity="0.85">
+    <ellipse cx="120" cy="310" rx="18" ry="12"/><ellipse cx="200" cy="295" rx="14" ry="9"/>
+    <ellipse cx="350" cy="320" rx="22" ry="14"/><ellipse cx="500" cy="300" rx="16" ry="10"/>
+    <ellipse cx="650" cy="315" rx="20" ry="13"/><ellipse cx="730" cy="295" rx="15" ry="10"/>
+  </g>
+  <!-- Rebaño de ovejas (puntos blancos) -->
+  <g fill="white" opacity="0.9">
+    <ellipse cx="420" cy="370" rx="12" ry="8"/><ellipse cx="445" cy="375" rx="11" ry="7"/>
+    <ellipse cx="465" cy="368" rx="13" ry="8"/><ellipse cx="488" cy="372" rx="10" ry="7"/>
+    <ellipse cx="510" cy="365" rx="12" ry="8"/><ellipse cx="400" cy="380" rx="11" ry="7"/>
+    <ellipse cx="532" cy="375" rx="10" ry="6"/>
+  </g>
+  <!-- Nieve en cumbres -->
+  <g fill="white" opacity="0.7">
+    <ellipse cx="453" cy="160" rx="30" ry="12"/><ellipse cx="600" cy="165" rx="25" ry="10"/>
+    <ellipse cx="300" cy="170" rx="20" ry="8"/>
+  </g>
+  <text x="400" y="462" font-family="Georgia,serif" font-size="19" fill="white" text-anchor="middle" opacity="0.9">Campos de Hernán Perea · 1.600-1.700 m · Altiplanicie</text>
+  <text x="400" y="486" font-family="Georgia,serif" font-size="13" fill="rgba(255,255,255,0.65)" text-anchor="middle">La altiplanicie más extensa de España · Santiago-Pontones · Jaén</text>
+</svg>

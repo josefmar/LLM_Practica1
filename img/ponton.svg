@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="skyPB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5a8ab0"/><stop offset="100%" style="stop-color:#98bcd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#skyPB)"/>
+  <!-- Montañas -->
+  <polygon points="0,280 130,190 280,220 450,170 620,200 800,180 800,500 0,500" fill="#4a7a4a" opacity="0.7"/>
+  <polygon points="0,340 100,275 250,300 450,270 600,290 750,275 800,285 800,500 0,500" fill="#2d4a2d"/>
+  <!-- Rio Segura -->
+  <path d="M0,400 Q200,385 400,395 Q600,405 800,390 L800,430 Q600,445 400,435 Q200,425 0,440 Z" fill="#4a8ab8" opacity="0.8"/>
+  <!-- Reflejos agua -->
+  <path d="M100,410 Q300,400 500,408 Q650,414 750,408" stroke="rgba(255,255,255,0.4)" stroke-width="2" fill="none"/>
+  <!-- Casas Pontón Bajo -->
+  <g fill="white" opacity="0.95">
+    <rect x="300" y="310" width="38" height="32"/><polygon points="296,310 341,310 319,292" fill="#c8922a"/>
+    <rect x="343" y="305" width="42" height="37"/><polygon points="339,305 388,305 364,286" fill="#a07030"/>
+    <rect x="390" y="312" width="35" height="30"/><polygon points="386,312 428,312 407,295" fill="#c8922a"/>
+    <rect x="430" y="308" width="38" height="34"/><polygon points="426,308 471,308 449,290" fill="#8b5e3c"/>
+    <rect x="473" y="315" width="30" height="27"/><polygon points="469,315 506,315 488,299" fill="#c8922a"/>
+    <!-- Puente sobre rio -->
+    <rect x="280" y="388" width="240" height="12" fill="#d4c4a0" rx="2"/>
+    <rect x="310" y="370" width="15" height="30" fill="#d4c4a0"/>
+    <rect x="470" y="370" width="15" height="30" fill="#d4c4a0"/>
+  </g>
+  <!-- Pinos -->
+  <g fill="#1a3a1a">
+    <polygon points="150,360 163,316 176,360"/><polygon points="185,355 199,308 213,355"/>
+    <polygon points="600,355 613,310 626,355"/><polygon points="640,360 654,314 668,360"/>
+  </g>
+  <text x="400" y="462" font-family="Georgia,serif" font-size="19" fill="white" text-anchor="middle" opacity="0.9">Pontón Bajo · A orillas del Río Segura · Santiago-Pontones</text>
+  <text x="400" y="486" font-family="Georgia,serif" font-size="13" fill="rgba(255,255,255,0.65)" text-anchor="middle">Sierra de Segura · Jaén · Andalucía</text>
+</svg>
