@@ -1,4 +1,4 @@
-# Santiago-Pontones · Web Municipal
+# Santiago-Pontones · Web informativa
 
 Página web pública de presentación del municipio de **Santiago-Pontones**,
 enclavado en la Sierra de Segura (Jaén, Andalucía, España), dentro del
